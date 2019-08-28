@@ -1,0 +1,178 @@
+*{
+    margin: 0;padding: 0;
+}
+img{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;color: black;
+}
+
+/* 协议 */
+body{
+    background:#fff;
+}
+.main{
+    width: 1210px;margin: 0 auto;
+}
+.pro_bac{
+    width: 100%;height: 100%;background: rgba(116,116,116,.3);position: fixed;
+    z-index: 5;
+}
+.JD_promise{
+    width: 955px;height: 604px;margin: 20px auto;overflow: hidden;
+    position: relative;background: #fff;
+}
+.JD_promise h5{
+    height: 31px;background: #f3f3f3;text-indent: 2em;line-height: 31px;
+}
+.promise_con{
+    height: 573px;width:955px;padding: 20px;box-sizing: border-box; 
+}
+.promise_con b{
+    width: 100%;height: 62px;
+}
+.promise_con a {
+    color:#e83631;font-weight: bold;font-size: 16px;text-indent: 2em;
+}
+.promise_con ul{
+    font-weight: bold;margin-top: 20px;
+}
+.promise_con ul>li{
+    line-height: 20px;font-size: 16px;height: 20px;margin-bottom:5px; 
+}
+.JD_probook a:hover{
+    text-decoration: underline;
+}
+.pro_btnbox{
+    position: absolute;bottom: 50px;left: 200px;width: 430px;height: 54px;
+}
+.pro_btnbox>button{
+    width: 200px;height: 54px;border: none;outline: none;display: inline-block;
+    text-align: center;font-size:16px;line-height: 54px;float: left;cursor: pointer;
+}
+.pro_btnbox>button:first-child{
+    background: #e3e4e5;color:#999;margin-right: 30px;
+}
+.pro_btnbox>button:last-child{
+    background: #e83631;color:#fff;
+}
+
+/* 登录页面 */
+
+/* 头部 */
+.res_head{
+    width: 100%;height: 110px;box-shadow:3px 3px 3px  #666;
+}
+.res_head>.head_con{
+    height: 76px;position: relative;
+}
+.res_head>.head_con>a{
+    width: 160px;height: 50px;position: absolute;left: 0;bottom: 0;
+}
+.res_head>.head_con>a img{
+    width: 160px;height: 50px;
+}
+.head_wel{
+    width: 96px;height: 34px;position: absolute;left:160px;top: 34px;font-size: 23px;color: #333;
+    line-height: 34px;margin-left: 20px;
+}
+.res_head>.head_con div:last-child{
+    position: absolute;right: 0;top: 55px;font-size: 16px;color: #999;
+}
+.res_head>.head_con div:last-child a{
+    color: #e83631;
+}
+
+
+/* 进度条 */
+
+.progress_bar{
+    width: 444px;height: 55px;margin:80px auto 0; 
+}
+.progress_num{
+    height: 55px;
+}
+.progress_bar>div{
+float: left;
+}
+.progress_num>em{
+    width: 24px;height: 24px;font-size: 24px;display: inline-block;margin: 0 18px;
+    color: #999;
+}
+.progress_num>p{
+    font-size: 12px;margin-top: 10px;color: #999;text-align: center;
+}
+.progress_dott{
+    width: 124px;height: 10px;color: #999;font-size: 10px;
+}
+#gre .forgive{
+    color: #33bb44;
+}
+
+/* 输入框 */
+
+.res_input{
+    width: 400px;height: 246px;margin: 40px auto 0;
+}
+.res_input>.tel_num{
+    width: 400px;height: 52px;border: 1px solid #ccc;margin-bottom: 25px;
+}
+.res_input>.tel_num>label{
+    width:108px;height: 52px;text-align: center;line-height: 46px;font-size: 14px;
+    border-right:1px solid #ccc; float: left;
+}
+.inp_style{
+    width: 290px;height: 52px;border: none;float: left;outline: none;padding: 16px 0 11px 20px;
+    box-sizing: border-box;
+}
+#yanzheng{
+    width:400px;height: 52px;text-align: center;line-height: 52px;font-size: 14px; 
+    border: 1px solid #ccc;cursor: pointer;
+}
+.res_input>a{
+    display: inline-block;width: 400px;height: 52px;background: #e83631;
+    color: #fff;text-align: center;line-height:52px;font-size: 16px;
+    margin-top: 25px; 
+}
+.spe2{
+    width:400px;height: 350px;margin: 40px auto 0;display: none;
+}
+.test{
+    display: none;
+}
+
+/* 错误提醒 */
+.p{
+    width: 200px;height: 100px;background: #ccc;position:fixed;
+    top: 100px;left: 50%;margin-left: -100px;z-index: 5;display: none;
+}
+.l{
+    width: 50px;height: 30px;margin:50px auto 0;line-height: 30px;
+}
+.l em{
+    font-size: 30px;text-align: center;color: #33bb44;
+}
+.res_error em{
+    color: #e83631;
+}
+/* 底部 */
+
+.w{
+    width: 100%;margin-top: 25px;
+}
+.links{
+    width: 100%;padding:0 40px;font-size: 12px;text-align: center;
+}
+.links>a{
+    color: #666;text-decoration: none;margin:0 10px; 
+}
+.links>a:hover{
+    color: rgb(228, 57, 60);text-decoration: underline;
+}
+.copyright{
+    width:100% ;text-align: center;margin-top: 15px;font-size: 12px;color: #666;
+}
